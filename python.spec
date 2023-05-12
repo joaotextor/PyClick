@@ -5,10 +5,10 @@ block_cipher = None
 
 
 a = Analysis(
-    ['pyclick.pyw'],
+    ['pyclick.pywC:\\Users\\joao_\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'c:/Coding/PyClick/pyclick.pyw'],
     pathex=[],
     binaries=[],
-    datas=[('Autoclick.ico', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -26,7 +26,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='pyclick',
+    name='python',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -47,5 +47,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='pyclick',
+    name='python',
 )
